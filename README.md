@@ -18,3 +18,9 @@ Main thread will be blocked until frame is read from camera and return to our sc
 
 Camera I/O are huge bottleneck as well after the computer vision and video processing
 
+We want to prepare the frame ready for the main thread to process. (Dont have t poll the device and wait for I/O to complete on the same thread. 
+
+
+Decrease in latency and increase in FPS
+
+
